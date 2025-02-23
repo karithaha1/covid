@@ -25,11 +25,6 @@ const AirportPUIChart: React.FC<Props> = ({ covidData }) => {
   ];
 
   const option = {
-    title: {
-      text: "ข้อมูล PUI จากสนามบิน (Airport PUI)",
-      left: "center",
-      textStyle: { color: "#003366" },
-    },
     tooltip: {
       trigger: "item",
       formatter: "{b}: {c}",

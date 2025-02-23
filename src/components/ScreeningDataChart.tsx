@@ -43,7 +43,7 @@ const ScreeningDataChart: React.FC<Props> = ({ covidData }) => {
 
   const totalValue = data.reduce((sum, item) => sum + item.value, 0);
 
-  const [centerText, setCenterText] = React.useState({
+  const [centerText] = React.useState({
     name: "รวมทั้งหมด",
     value: totalValue,
   });

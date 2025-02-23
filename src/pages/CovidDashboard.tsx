@@ -94,9 +94,9 @@ const CovidDashboard: React.FC = () => {
         <>
           {filteredData.length > 0 ? (
             <>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-4 gap-2">
                 {/*  */}
-                <div className="col-span-2 flex flex-col gap-2">
+                <div className="col-span-3 flex flex-col gap-2">
                   <BoxContent
                     title={
                       "ข้อมูลผู้ป่วยเข้าเกณฑ์สอบสวนโรค (PUI: Patients Under Investigation)"
