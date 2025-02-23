@@ -7,6 +7,7 @@ import {
 import { CovidStateData } from "../../types/covidTypes";
 import axios, { AxiosResponse } from "axios";
 
+// const API_URL = "https://covid19.traffy.in.th/api/state-covid19";
 const API_URL =
   "https://thingproxy.freeboard.io/fetch/" +
   encodeURIComponent("https://covid19.traffy.in.th/api/state-covid19");
